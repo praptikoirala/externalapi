@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+body .container {
+  padding: 1rem 2rem;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #444444;
+}
+
+body .container form .input-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+body .container form .input-field label {
+  margin-bottom: 0.2rem;
+}
+
+body .container form input {
+  width: 45%;
+}
+
+body .container form button {
+  padding: 0.25rem 0.75rem;
+}
+
+body .container form button:hover {
+  cursor: pointer;
+}
+
+body .container .jokes {
+  margin-top: 1rem;
+}
+
+body .container .jokes li {
+  list-style: square;
+  margin-bottom: 0.15rem;
+}

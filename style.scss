@@ -1,0 +1,50 @@
+body{
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+
+   .container{
+      padding: 1rem 2rem;
+      margin:1rem auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border:1px solid #444444;
+
+      form{
+
+         .input-field{
+            display: flex;
+            flex-direction: column;
+            margin-bottom:0.5rem;
+
+            label{
+               margin-bottom: 0.2rem;
+            }
+         }
+
+         input{
+            width: 45%;
+         }
+
+         button{
+            padding:0.25rem 0.75rem;
+
+            &:hover{
+               cursor: pointer;
+            }
+         }
+      }
+
+      .jokes{
+         margin-top: 1rem;
+
+         li{
+            list-style: square;
+            margin-bottom: 0.15rem;
+         }
+      }
+   }
+
+}
